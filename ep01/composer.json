@@ -1,0 +1,28 @@
+{
+	"name": "dumondmd/phptips001",
+	"description": "Conhecendo o Composer e Configurando IDE | PHP Tips #001",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "dumondmd",
+			"email": "dmd.dumon@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/dumondmd"
+		}
+	],
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"autoload": {
+		"psr-4": {
+			"Source\\": "source/"
+		},
+		"files": [
+			"source/Config.php"
+		]
+	},
+	"require": {
+		"phpmailer/phpmailer": "6.0.*"
+	}
+}
